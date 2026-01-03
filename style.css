@@ -29,29 +29,31 @@
 
 .nav-links a {
     text-decoration: none;
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+    color: #391c7c;
     font-weight: 500;
 }
 
 .button {
-    background-color: green;
+    background-color: #391c7c;
     color: white;
     padding: 10px 30px;
     border: 1px solid black;
     font-size: 16px;
     font-weight: 500;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .nav-links a:hover {
-    color: #168038;
+    color: #ffffff;
+    background-color: #391c7c;
 }
 
 .button:hover {
     background-color: #ffffff;
-    color: green;
-    border: 1px solid green;
+    color: #391c7c;
+    border: 1px solid #391c7c;
 }
 
 /* Hero Section */
@@ -70,7 +72,7 @@
 
 .hero-content h1 {
     font-size: 50px;
-    color: #0b3c84;
+    color: #391c7c;
     margin-bottom: 15px;
 }
 
@@ -125,7 +127,7 @@
     margin-bottom: 20px;
 }
 .hbottom-border {
-    border-bottom: 3px solid #0b3c84;
+    border-bottom: 3px solid #391c7c;
 }
 
 /* Skill Section */
@@ -145,7 +147,7 @@
 
 .skill-section h2 {
     font-size: 36px;
-    color: #0b3c84;
+    color: #391c7c;
 }
 
 .skill-box {
@@ -154,7 +156,7 @@
     /*height: 20%;*/
     background-color: #ffffff;
     padding: 50px;
-    color: #0b3c84;
+    color: #391c7c;
     text-align: center;
     font-size: 32px;
     box-shadow: 10px 10px #f5f7fa;
@@ -169,7 +171,7 @@
 
 .project-section h2 {
     font-size: 36px;
-    color: #0b3c84;
+    color: #391c7c;
     margin-bottom: 40px;
 }
 
@@ -186,12 +188,12 @@
     padding: 20px;
     margin: 20px;
     background-color:#ffffff;
-    box-shadow: 10px 10px #f5f7fa;
+    box-shadow: 10px 10px #391c7c;
 }
 
 .project-box h3 {
     font-size: 24px;
-    color: #0b3c84;
+    color: #391c7c;
     margin-bottom: 20px;
 }
 
@@ -206,13 +208,13 @@
     cursor: pointer;
 }
 .project-box a:hover {
-    color:#168038;
+    color:#391c7c;
 }
 
 /* Footer Section */
 
 .footer {
-    background-color: #0b3c84;
+    background-color: #391c7c;
     color: #ffffff;
     padding: 60px 20px;
 }
@@ -224,13 +226,13 @@
 }
 
 .footer-container h3 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
 
 }
 
 .footer-container p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: #e0e0e0;
 }
@@ -245,11 +247,12 @@
 .footer-links a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footer-links a:hover {
-    color: #168038;
+    color: #391c7c;
+    background-color: #ffffff;
 }
 .copyright {
     font-size: 14px;
