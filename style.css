@@ -146,3 +146,49 @@
     font-size: 32px;
     box-shadow: 10px 10px #f5f7fa;
 }
+
+.project-section {
+    text-align: center;
+}
+
+.project-section h2 {
+    font-size: 36px;
+    color: #0b3c84;
+    margin-bottom: 40px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-box {
+    width: 400px;
+    border: 2px solid #f5f7fa;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color:#ffffff;
+    box-shadow: 10px 10px #f5f7fa;
+}
+
+.project-box h3 {
+    font-size: 24px;
+    color: #0b3c84;
+    margin-bottom: 20px;
+}
+
+.project-box p{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-box a {
+    font-size: 18px;
+    cursor: pointer;
+}
+.project-box a:hover {
+    color:#168038;
+}
