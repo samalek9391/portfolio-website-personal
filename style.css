@@ -117,3 +117,32 @@
 .hbottom-border {
     border-bottom: 3px solid #0b3c84;
 }
+
+.skill-section {
+    text-align: center;
+}
+
+.skill-container {
+    margin: 20px 20px 60px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-section h2 {
+    font-size: 36px;
+    color: #0b3c84;
+}
+
+.skill-box {
+    border: 2px solid #f5f7fa;
+    width: 300px;
+    /*height: 20%;*/
+    background-color: #ffffff;
+    padding: 50px;
+    color: #0b3c84;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 10px 10px #f5f7fa;
+}
