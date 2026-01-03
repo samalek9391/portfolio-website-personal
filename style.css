@@ -33,7 +33,7 @@
 }
 
 .button {
-    background-color: purple;
+    background-color: green;
     color: white;
     padding: 10px 30px;
     border: 1px solid black;
@@ -48,6 +48,72 @@
 
 .button:hover {
     background-color: #ffffff;
-    color: purple;
-    border: 1px solid purple;
+    color: green;
+    border: 1px solid green;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f5f7fa;
+}
+
+.hero-content {
+
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    color: #0b3c84;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #168038;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #136a2f;
+}
+
+.about-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    color: #0b3c84;
+    margin-bottom: 25px;
+}
+
+.about-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.hbottom-border {
+    border-bottom: 3px solid #0b3c84;
 }
